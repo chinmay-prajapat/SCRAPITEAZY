@@ -1,0 +1,30 @@
+.navParent {
+  /* d-flex w-100 justify-content-around pt-5 */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: green;
+  max-height: 100px;
+  height: 100%;
+  align-items: center;
+  color: #ffffff;
+  position: fixed;
+  z-index: 999;
+}
+.navItems ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItems ul li {
+  padding-right: 70px;
+  font-size: 18px;
+}
+
+.navParent button {
+  padding: 10px 30px;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
